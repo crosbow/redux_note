@@ -1,0 +1,46 @@
+.btn {
+  padding: 4px 15px;
+  border-radius: 5px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  margin: 0 5px;
+}
+
+.dander {
+  background-color: rgb(205, 55, 0);
+  color: white;
+}
+
+.ghost {
+  background-color: rgb(234, 234, 234);
+  color: black;
+}
+
+.counter {
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #1f1f1f;
+  background-color: #525252;
+  margin-top: 20px;
+
+  & p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+.totalCount {
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #009a45;
+  font-size: 30px;
+  font-weight: bold;
+
+  & span {
+    color: orangered;
+  }
+}
