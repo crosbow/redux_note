@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import "./App.css";
 import { Counter } from "./components/Counter";
 import styles from "./components/counter.module.css";
+import { Posts } from "./components/Posts";
 
 function App() {
   const counters = useSelector((state) => {
@@ -18,6 +19,7 @@ function App() {
       <div className={styles.totalCount}>
         Total Count: <span> {totalCount} </span>{" "}
       </div>
+      <Posts />
     </div>
   );
 }
